@@ -1,6 +1,7 @@
 import {
     Container,
     Badge,
+    Box,
     Link,
     List,
     ListItem,
@@ -18,32 +19,25 @@ import {
           Building PC's <Badge>2015</Badge>
         </Title>
         <P>
-          I have built three custom computers with a wide variety of configurations and price points for people in my life. This included preparing the part list to fit the particular needs of the person whos computer it is and the purchasing and assembeling of the computer. All of the computers I have built have lasted 9+ years with no major issues with the people who recieved them.
+          I have built three custom computers with a wide variety of configurations and price points for people in my life. This included preparing the part list to fit the particular needs of the person whos computer it is and the purchasing and assembling of the computer. All of the computers I have built have lasted 9+ years with no major issues with the people who received them.
         </P>
-        <List ml={4} my={4}>
-          <ListItem>
-            <Meta>Website</Meta>
-            <Link href="https://www.inkdrop.app/">
-              https://www.inkdrop.app/ <ExternalLinkIcon mx="2px" />
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Meta>Platform</Meta>
-            <span>Windows/macOS/Linux/iOS/Android</span>
-          </ListItem>
-        </List>
   
-        <HardwareImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-        <HardwareImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
-        <AspectRatio maxW="640px" ratio={1.7} my={4}>
-          <iframe
-            src="https://www.youtube.com/embed/-qBavwqc_mY"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </AspectRatio>
+        <Box mb={12}>
+          <P>First Computer I Built</P>
+          <HardwareImage src="/images/hardware/build-pc/build-pc-1.jpeg" alt="build-pc-1" />
+          <HardwareImage src="/images/hardware/build-pc/build-pc-2.jpeg" alt="build-pc-2" />
+        </Box>
+  
+        <Box mb={12}>
+          <P>Second Computer I Built. This was at a friends house and I have few images of that day.</P>
+          <HardwareImage src="/images/hardware/build-pc/build-pc-3.png" alt="build-pc-3" />
+        </Box>
+  
+        <Box mb={12}>
+          <P>Third Computer I Built</P>
+          <HardwareImage src="/images/hardware/build-pc/build-pc-4.jpeg" alt="build-pc-4" />
+          <HardwareImage src="/images/hardware/build-pc/build-pc-5.jpeg" alt="build-pc-5" />
+        </Box>
       </Container>
     </Layout>
   )

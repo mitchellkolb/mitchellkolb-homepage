@@ -46,7 +46,7 @@ const Hardware = () => {
             </HardwareGridItem>
           </Section>
           <Section>
-            <HardwareGridItem id="razer-blade" title="Razer Blade Screen & Battery Repair" thumbnail={sample}>
+            <HardwareGridItem id="blade-screen" title="Razer Blade Screen & Battery Repair" thumbnail={sample}>
             Replacing the broken screen/battery on a razer blade laptop.
             </HardwareGridItem>
           </Section>
@@ -55,11 +55,11 @@ const Hardware = () => {
             Starting in 2015 I built multiple PC's for my friends and family.
             </HardwareGridItem>
           </Section>
-          <Section>
+          {/* <Section>
             <HardwareGridItem id="wrist-rest" title="Keyboard Wrist Rest Repair" thumbnail={sample}>
             Restoring my Razer Blackwidow Chroma V2 Keyboard Wrist Rest
             </HardwareGridItem>
-          </Section>
+          </Section> */}
         </SimpleGrid>
         <Box height="25px" />
       </Container>

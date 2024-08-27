@@ -1,16 +1,17 @@
 # Mitchell Kolb's Homepage
 
-<p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/mitchellkolb/mitchellkolb-homepage?color=DE4830">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/mitchellkolb/mitchellkolb-homepage?color=DE4830">
+<p align="left">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/mitchellkolb/mitchellkolb-homepage?color=F1E05A">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/mitchellkolb/mitchellkolb-homepage?color=DE4830">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/mitchellkolb/mitchellkolb-homepage?color=F1E05A">
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/mitchellkolb/mitchellkolb-homepage?color=DE4830" />
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/mitchellkolb/mitchellkolb-homepage?color=F1E05A">
+
+  <img alt="Github stars" src="https://img.shields.io/github/stars/mitchellkolb/mitchellkolb-homepage?color=F1E05A" />
 </p>
 
-[https://www.mitchellkolb.com/](https://www.mitchellkolb.com/)
+[https://www.mitchellkolb.com](https://www.mitchellkolb.com/)
 
 
 ## Stack

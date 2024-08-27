@@ -10,6 +10,9 @@ import {
   import { Title, HardwareImage, Meta } from '../../components/hardware'
   import P from '../../components/paragraph'
   import Layout from '../../components/layouts/article'
+
+
+
   
   const Hardware = () => (
     <Layout title="Inkdro33p">
@@ -18,32 +21,41 @@ import {
           Razer Blade Screen & Battery Repair <Badge>2022-</Badge>
         </Title>
         <P>
-          I replaced the 15.6 inch IPS screen and adhesive around the screen bezel along with the battery for a Razer Blade Laptop whos screen was damaged.
+          I replaced the 15.6-inch IPS screen, the adhesive around the screen bezel, and the battery for a Razer Blade Laptop with a damaged screen. This process involved researching and comparing various third-party screens available online to ensure they would fit and work with this particular laptop. I accomplished this by performing a general search for the laptop model name and then matching the screens' power cable pins to the ones required, as some screens may fit but use a different power cable configuration.
         </P>
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Website</Meta>
-            <Link href="https://www.inkdrop.app/">
-              https://www.inkdrop.app/ <ExternalLinkIcon mx="2px" />
+            <Meta>Screen</Meta>
+            <Link href="https://www.amazon.com/dp/B08PVFN7MB?ref=ppx_yo2ov_dt_b_fed_asin_title">
+              IPS 15.6in IPS Screen <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
-            <Meta>Platform</Meta>
-            <span>Windows/macOS/Linux/iOS/Android</span>
+            <Meta>Tape</Meta>
+            <Link href="https://www.amazon.com/dp/B0817HZN4L?ref=ppx_yo2ov_dt_b_fed_asin_title">
+            2mm Double Sided Tape <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Meta>Tape </Meta>
+            <Link href="https://www.amazon.com/dp/B077QMLM7C?ref=ppx_yo2ov_dt_b_fed_asin_title">
+              5mm Double Sided Tape <ExternalLinkIcon mx="2px" />
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Meta>Battery </Meta>
+            <Link href="https://www.amazon.com/dp/B07YPSHGL2?ref=ppx_yo2ov_dt_b_fed_asin_title">
+              65Wh 4221mAh 4-Cell <ExternalLinkIcon mx="2px" />
+            </Link>
           </ListItem>
         </List>
   
-        <HardwareImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-        <HardwareImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
-        <AspectRatio maxW="640px" ratio={1.7} my={4}>
-          <iframe
-            src="https://www.youtube.com/embed/-qBavwqc_mY"
-            title="YouTube video player"
-            frameBorder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
-        </AspectRatio>
+        <HardwareImage src="/images/hardware/blade-screen/blade-screen-1.jpeg" alt="blade-screen-1" />
+        <HardwareImage src="/images/hardware/blade-screen/blade-screen-2.jpeg" alt="blade-screen-2" />
+        <HardwareImage src="/images/hardware/blade-screen/blade-screen-3.jpeg" alt="blade-screen-3" />
+        <HardwareImage src="/images/hardware/blade-screen/blade-screen-4.jpeg" alt="blade-screen-4" />
+        <HardwareImage src="/images/hardware/blade-screen/blade-screen-5.jpeg" alt="blade-screen-5" />
+
       </Container>
     </Layout>
   )

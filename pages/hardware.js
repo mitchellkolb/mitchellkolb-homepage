@@ -5,7 +5,12 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { HardwareGridItem } from '../components/grid-item'
 import NextLink from 'next/link'
+
+
 import sample from '../public/images/hardware/h1.png'
+import buildPC from '../public/images/hardware/build-pc/build-pc-5.jpeg'
+
+
 
 const Hardware = () => {
   return (
@@ -51,7 +56,7 @@ const Hardware = () => {
             </HardwareGridItem>
           </Section>
           <Section>
-            <HardwareGridItem id="building-pc" title="Building PC's" thumbnail={sample}>
+            <HardwareGridItem id="building-pc" title="Building PC's" thumbnail={buildPC}>
             Starting in 2015 I built multiple PC's for my friends and family.
             </HardwareGridItem>
           </Section>

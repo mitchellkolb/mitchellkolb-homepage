@@ -12,32 +12,41 @@ import {
   import Layout from '../../components/layouts/article'
   
   const Software = () => (
-    <Layout title="Inkdro33p">
+    <Layout title="MIPS">
       <Container>
         <Title>
-        Assembly Programming <Badge>2023-2024</Badge>
+        MIPS Assembly Programming <Badge>2020</Badge>
         </Title>
         <P>
-          While learning about computer architecure I used QtSPIM to code assembly programs in the MIPS architecture. I wrote code for creating a simple calculator and manipulating an array. The calculator program requested two integers and performed addition, subtraction, or multiplication based on user input. The array manipulation program defined a 10-element array, implemented functions to find the maximum value and calculate the summation, and printed the results. Key tasks included managing registers, utilizing system calls, and adhering to MIPS assembly syntax in QtSPIM.
+          While learning about computer architecure, I used QtSPIM to code assembly programs in the MIPS architecture. I wrote code for creating a simple calculator and manipulating an array. The calculator program requested two integers and performed addition, subtraction, or multiplication based on user input. The array manipulation program defined a 10-element array, implemented functions to find the maximum value and calculate the summation, and printed the results. Key tasks included managing registers, utilizing system calls, and adhering to MIPS assembly syntax in QtSPIM.
         </P>
+
+
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Website</Meta>
-            <Link href="https://www.inkdrop.app/">
-              https://www.inkdrop.app/ <ExternalLinkIcon mx="2px" />
+            <Meta>Github</Meta>
+            <Link href="https://github.com/mitchellkolb/mips-assembly-programming" isExternal>
+            mitchellkolb/mips-assembly-programming <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>Windows/macOS/Linux/iOS/Android</span>
+            <span>QtSPIM, MacOS</span>
+          </ListItem>
+          <ListItem>
+            <Meta>Stack</Meta>
+            <span>Assembly, MIPS</span>
           </ListItem>
         </List>
+
   
-        <SoftwareImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-        <SoftwareImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
+        <SoftwareImage src="/images/software/assembly/mips-mult.JPG" alt="mips-mult" />
+        <SoftwareImage src="/images/software/assembly/mips-array.JPG" alt="mips-array" />
+
+
         <AspectRatio maxW="640px" ratio={1.7} my={4}>
           <iframe
-            src="https://www.youtube.com/embed/-qBavwqc_mY"
+            src="https://www.youtube.com/embed/by-Q1PF2GSQ"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

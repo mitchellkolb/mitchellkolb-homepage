@@ -248,7 +248,7 @@ const Software = () => {
             </Section>
                      
             <Section delay={0.5}>
-              <SoftwareGridItem id="yahtzee" thumbnail={classic_games_thumbnail} title="Classic Games">
+              <SoftwareGridItem id="classic-games" thumbnail={classic_games_thumbnail} title="Classic Games">
                 A collection of classic board games I recreated in C that play in the terminal. 
               </SoftwareGridItem>
             </Section>

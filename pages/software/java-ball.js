@@ -12,7 +12,7 @@ import {
   import Layout from '../../components/layouts/article'
   
   const Software = () => (
-    <Layout title="Inkdro33p">
+    <Layout title="Java Ball Game">
       <Container>
         <Title>
         Java Ball Game <Badge>2023</Badge>
@@ -22,22 +22,27 @@ import {
         </P>
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Website</Meta>
-            <Link href="https://www.inkdrop.app/">
-              https://www.inkdrop.app/ <ExternalLinkIcon mx="2px" />
+            <Meta>Github</Meta>
+            <Link href="https://github.com/mitchellkolb/java-ball-game" isExternal>
+            mitchellkolb/java-ball-game <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>Windows/macOS/Linux/iOS/Android</span>
+            <span>Linux, Ubuntu</span>
+          </ListItem>
+          <ListItem>
+            <Meta>Stack</Meta>
+            <span>Java</span>
           </ListItem>
         </List>
   
-        <SoftwareImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-        <SoftwareImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
+        <SoftwareImage src="/images/software/java-ball/4balls.JPG" alt="java 4balls" />
+        <SoftwareImage src="/images/software/java-ball/endscreen.JPG" alt="java endscreen" />
+
         <AspectRatio maxW="640px" ratio={1.7} my={4}>
           <iframe
-            src="https://www.youtube.com/embed/-qBavwqc_mY"
+            src="https://www.youtube.com/embed/DPazirTKoa0"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

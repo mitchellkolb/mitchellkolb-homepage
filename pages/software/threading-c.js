@@ -12,32 +12,37 @@ import {
   import Layout from '../../components/layouts/article'
   
   const Software = () => (
-    <Layout title="Inkdro33p">
+    <Layout title="Threading in C">
       <Container>
         <Title>
-        Multi-threading in C <Badge>2023-2024</Badge>
+        Multi-threading in C <Badge>2023</Badge>
         </Title>
         <P>
           In a project exploring the pthread.h library in C, I tackled two mathematical problems using threads. First, I computed the sum of an N x N matrix by creating N threads, each summing a unique row. Using mutexes to ensure thread-safe access to the global sum variable. Second, I solved a system of linear equations (AX = B) via concurrent threads, using Gauss elimination with row reduction, back substitution, and partial pivoting, using mutexes and barriers to coordinate thread operations.
         </P>
         <List ml={4} my={4}>
           <ListItem>
-            <Meta>Website</Meta>
-            <Link href="https://www.inkdrop.app/">
-              https://www.inkdrop.app/ <ExternalLinkIcon mx="2px" />
+            <Meta>Github</Meta>
+            <Link href="https://github.com/mitchellkolb/multi-threading-in-C" isExternal>
+            mitchellkolb/multi-threading-in-C <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>Windows/macOS/Linux/iOS/Android</span>
+            <span>Linux, Ubuntu</span>
+          </ListItem>
+          <ListItem>
+            <Meta>Stack</Meta>
+            <span>C</span>
           </ListItem>
         </List>
   
-        <SoftwareImage src="/images/works/inkdrop_01.png" alt="Inkdrop" />
-        <SoftwareImage src="/images/works/inkdrop_02.png" alt="Inkdrop" />
+        <SoftwareImage src="/images/software/multi-threading/mutex-big.JPG" alt="mutex" />
+        <SoftwareImage src="/images/software/multi-threading/barrier-small-2.JPG" alt="barrier" />
+
         <AspectRatio maxW="640px" ratio={1.7} my={4}>
           <iframe
-            src="https://www.youtube.com/embed/-qBavwqc_mY"
+            src="https://www.youtube.com/embed/7tln4s4ttao"
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

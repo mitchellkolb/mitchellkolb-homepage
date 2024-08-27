@@ -8,7 +8,11 @@ import NextLink from 'next/link'
 
 
 import sample from '../public/images/hardware/h1.png'
-import buildPC from '../public/images/hardware/build-pc/build-pc-5.jpeg'
+import buildPC from '../public/images/hardware/build-pc/build-pc-thumb.jpeg'
+import razerBlade from '../public/images/hardware/blade-screen/blade-screen-thumb.jpeg'
+import guitarHero from '../public/images/hardware/guitar-hero/guitar-hero-thumb.jpeg'
+import xboxRGH from '../public/images/hardware/xbox-rgh/xbox-rgh-thumb.jpeg'
+
 
 
 
@@ -41,17 +45,17 @@ const Hardware = () => {
             </HardwareGridItem>
           </Section>
           <Section>
-            <HardwareGridItem id="xbox-rgh" title="Xbox 360 RGH 3.0" thumbnail={sample}>
+            <HardwareGridItem id="xbox-rgh" title="Xbox 360 RGH 3.0" thumbnail={xboxRGH}>
             Modding three Xbox 360's with the Reset Glich Hack 3.0 (RGH3) and installing the Aroura Dashboard.
             </HardwareGridItem>
           </Section>
           <Section>
-            <HardwareGridItem id="guitar-hero" title="Guitar Hero Capacitor" thumbnail={sample}>
+            <HardwareGridItem id="guitar-hero" title="Guitar Hero Capacitor" thumbnail={guitarHero}>
             Replacing two capacitors on a Guitar Hero PS3 controller because it doesn't power on.
             </HardwareGridItem>
           </Section>
           <Section>
-            <HardwareGridItem id="blade-screen" title="Razer Blade Screen & Battery Repair" thumbnail={sample}>
+            <HardwareGridItem id="blade-screen" title="Razer Blade Screen & Battery Repair" thumbnail={razerBlade}>
             Replacing the broken screen/battery on a razer blade laptop.
             </HardwareGridItem>
           </Section>

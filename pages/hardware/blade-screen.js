@@ -15,7 +15,7 @@ import {
 
   
   const Hardware = () => (
-    <Layout title="Inkdro33p">
+    <Layout title="Razer Blade">
       <Container>
         <Title>
           Razer Blade Screen & Battery Repair <Badge>2022-</Badge>
@@ -26,29 +26,30 @@ import {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Screen</Meta>
-            <Link href="https://www.amazon.com/dp/B08PVFN7MB?ref=ppx_yo2ov_dt_b_fed_asin_title">
+            <Link href="https://www.amazon.com/dp/B08PVFN7MB?ref=ppx_yo2ov_dt_b_fed_asin_title" target="_blank" rel="noopener noreferrer">
               IPS 15.6in IPS Screen <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
             <Meta>Tape</Meta>
-            <Link href="https://www.amazon.com/dp/B0817HZN4L?ref=ppx_yo2ov_dt_b_fed_asin_title">
-            2mm Double Sided Tape <ExternalLinkIcon mx="2px" />
+            <Link href="https://www.amazon.com/dp/B0817HZN4L?ref=ppx_yo2ov_dt_b_fed_asin_title" target="_blank" rel="noopener noreferrer">
+              2mm Double Sided Tape <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
-            <Meta>Tape </Meta>
-            <Link href="https://www.amazon.com/dp/B077QMLM7C?ref=ppx_yo2ov_dt_b_fed_asin_title">
+            <Meta>Tape</Meta>
+            <Link href="https://www.amazon.com/dp/B077QMLM7C?ref=ppx_yo2ov_dt_b_fed_asin_title" target="_blank" rel="noopener noreferrer">
               5mm Double Sided Tape <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
-            <Meta>Battery </Meta>
-            <Link href="https://www.amazon.com/dp/B07YPSHGL2?ref=ppx_yo2ov_dt_b_fed_asin_title">
+            <Meta>Battery</Meta>
+            <Link href="https://www.amazon.com/dp/B07YPSHGL2?ref=ppx_yo2ov_dt_b_fed_asin_title" target="_blank" rel="noopener noreferrer">
               65Wh 4221mAh 4-Cell <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
         </List>
+
   
         <HardwareImage src="/images/hardware/blade-screen/blade-screen-1.jpeg" alt="blade-screen-1" />
         <HardwareImage src="/images/hardware/blade-screen/blade-screen-2.jpeg" alt="blade-screen-2" />

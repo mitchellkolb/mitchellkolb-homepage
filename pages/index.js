@@ -128,10 +128,10 @@ const Home = () => (
           <BioYear>2023</BioYear>
           Hired by WSU's Neuropsychology and Aging Laboratory to work on the GSUR Automation Tool and EMMA Dashboard projects
         </BioSection>
-        <BioSection>
+        {/* <BioSection>
           <BioYear>Present</BioYear>
           Working as a freelancer
-        </BioSection>
+        </BioSection> */}
       </Section>
 
       <Section delay={0.3}>

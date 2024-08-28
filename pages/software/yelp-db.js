@@ -23,7 +23,7 @@ import {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Github</Meta>
-            <Link href="https://github.com/mitchellkolb/yelp-database">
+            <Link href="https://github.com/mitchellkolb/yelp-database" isExternal>
             mitchellkolb/yelp-database <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>

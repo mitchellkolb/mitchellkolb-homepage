@@ -23,7 +23,7 @@ import {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Github</Meta>
-            <Link href="https://github.com/mitchellkolb/airline-search-engine">
+            <Link href="https://github.com/mitchellkolb/airline-search-engine" isExternal>
               mitchellkolb/airline-search-engine <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>

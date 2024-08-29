@@ -77,25 +77,29 @@ const Navbar = props => {
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
         >
-          <LinkItem href="/works" path={path}>
-            Works
-          </LinkItem>
-          <LinkItem href="/wallpapers" path={path}>
-            Wallpapers
-          </LinkItem>
-          <LinkItem href="/posts" path={path}>
-            Posts
-          </LinkItem>
           <LinkItem href="/software" path={path}>
             Software
           </LinkItem>
           <LinkItem href="/hardware" path={path}>
             Hardware
           </LinkItem>
-          {/* <LinkItem href="https://uses.craftz.dog/">Uses</LinkItem> */}
+          <LinkItem href="/credits" path={path}>
+            Credits
+          </LinkItem>
           <LinkItem
             target="_blank"
-            href="https://github.com/mitchellkolb/portfolio-site"
+            href="/images/software/q-learning/q-learning-report.pdf" isExternal
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+            Resume
+          </LinkItem>
+          <LinkItem
+            target="_blank"
+            href="https://github.com/mitchellkolb/mitchellkolb-homepage"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -119,31 +123,26 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <MenuItem as={MenuLink} href="/">
-                  About
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/works">
-                  Works
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/wallpapers">
-                  Wallpapers
-                </MenuItem>
-                <MenuItem as={MenuLink} href="/posts">
-                  Posts
-                </MenuItem>
                 <MenuItem as={MenuLink} href="/software">
                   Software
                 </MenuItem>
                 <MenuItem as={MenuLink} href="/hardware">
                   Hardware
                 </MenuItem>
-                {/* <MenuItem as={MenuLink} href="https://uses.craftz.dog/">
-                  Uses
-                </MenuItem> */}
+                <MenuItem as={MenuLink} href="/credits">
+                  Credits
+                </MenuItem>
                 <MenuItem
                   as={Link}
                   target="_blank"
-                  href="https://github.com/mitchellkolb/portfolio-site"
+                  href="/images/software/q-learning/q-learning-report.pdf" isExternal
+                >
+                  Resume
+                </MenuItem>
+                <MenuItem
+                  as={Link}
+                  target="_blank"
+                  href="https://github.com/mitchellkolb/mitchellkolb-homepage"
                 >
                   View Source
                 </MenuItem>

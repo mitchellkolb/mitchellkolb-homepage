@@ -12,7 +12,7 @@ import buildPC from '../public/images/hardware/build-pc/build-pc-thumb.jpeg'
 import razerBlade from '../public/images/hardware/blade-screen/blade-screen-thumb.jpeg'
 import guitarHero from '../public/images/hardware/guitar-hero/guitar-hero-thumb.jpeg'
 import xboxRGH from '../public/images/hardware/xbox-rgh/xbox-rgh-thumb.jpeg'
-
+import piMusic from '../public/images/hardware/pi-music/pi-music-thumb.jpeg'
 
 
 
@@ -40,7 +40,7 @@ const Hardware = () => {
 
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
-            <HardwareGridItem id="pi-music" title="(Ongoing) Raspberry Pi Music Player" thumbnail={sample}>
+            <HardwareGridItem id="pi-music" title="(Ongoing) Raspberry Pi Music Player" thumbnail={piMusic}>
             Building a music player using a 5in touchscreen and custom 3D printed case.
             </HardwareGridItem>
           </Section>

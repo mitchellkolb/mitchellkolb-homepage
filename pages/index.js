@@ -74,18 +74,20 @@ const Home = () => (
           Mitchell is a software developer with a deep passion for creating technology that makes a significant impact. His approach to software development is comprehensive, combining meticulous planning with steady, reliable progress. Whether he&apos;s optimizing complex airline routes or designing intuitive user interfaces, Mitchell consistently delivers solutions that are both effective and inspiring. Among his notable projects are the {' '}
           <Link 
             as={NextLink} 
-            href="https://github.com/mitchellkolb/GSUR" 
-            passHref 
-            target="_blank"
+            href="/software/gsur" 
+            passHref
+            //Open the link in new tab
+            // target="_blank"
           >
             GSUR Data Automation Tool
           </Link>
           , which enhances data analysis for neuropsychological research, and the {' '}
           <Link
             as={NextLink}
-            href="https://github.com/mitchellkolb/living-atlas"
+            href="/software/living-atlas"
             passHref
-            target="_blank"
+            //Open the link in new tab
+            // target="_blank"
           >
             Living Atlas 
           </Link>

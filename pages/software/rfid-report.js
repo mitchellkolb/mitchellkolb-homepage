@@ -13,7 +13,7 @@ import {
   import Layout from '../../components/layouts/article'
   
   const Software = () => (
-    <Layout title="Inkdro33p">
+    <Layout title="RFID Tag">
       <Container>
         <Title>
           Ethics of RFID Tag in Humans <Badge>2022</Badge>

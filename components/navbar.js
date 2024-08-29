@@ -88,7 +88,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="/images/software/q-learning/q-learning-report.pdf" isExternal
+            href="/images/resume/Mitchell-Kolb-Resume.pdf" isExternal
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -106,7 +106,7 @@ const Navbar = props => {
             style={{ gap: 4 }}
             pl={2}
           >
-            <IoLogoGithub />
+            <IoLogoGithub style={{ transform: 'translateY(-2px)' }}/>
             Source
           </LinkItem>
         </Stack>
@@ -135,7 +135,7 @@ const Navbar = props => {
                 <MenuItem
                   as={Link}
                   target="_blank"
-                  href="/images/software/q-learning/q-learning-report.pdf" isExternal
+                  href="/images/resume/Mitchell-Kolb-Resume.pdf" isExternal
                 >
                   Resume
                 </MenuItem>

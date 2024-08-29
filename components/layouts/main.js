@@ -19,7 +19,7 @@ const Main = ({ children, router }) => {
         <meta name="author" content="Mitchell Kolb" />
         <meta name="author" content="mitchellkolb" />
         <link rel="apple-touch-icon" href="/tri-full.png" />
-        <link rel="shortcut icon" href="/tri.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <meta property="og:site_name" content="Mitchell Kolb" />
         <meta name="og:title" content="Mitchell Kolb" />
         <meta property="og:type" content="website" />

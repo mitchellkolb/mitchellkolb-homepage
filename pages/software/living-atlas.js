@@ -58,7 +58,6 @@ import {
         </List>
   
         <SoftwareImage src="/images/software/living-atlas/main-macos.png" alt="Atlas Homepage" />
-        {/* <SoftwareImage src="/images/software/living-atlas/wa-state.png" alt="Inkdrop" /> */}
         <SoftwareImage src="/images/software/living-atlas/water-map.png" alt="Atlas Map" />
         <SoftwareImage src="/images/software/living-atlas/swaggerUI.png" alt="SwaggerUI" />
         <AspectRatio maxW="640px" ratio={1.7} my={4}>

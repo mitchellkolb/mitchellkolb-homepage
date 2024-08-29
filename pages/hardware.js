@@ -21,7 +21,7 @@ const Hardware = () => {
     <Layout title="Hardware">
       <Container>
         <Heading as="h3" fontSize={20} mb={4}>
-          HardwKare
+          Hardware
         </Heading>
         <Box my={4}>
           Welcome to my personal hardware projects portfolio, featuring a variety of projects driven by skills I wanted to learn, problems I wanted to solve, or custom products I've created. These projects encompass general electronic tinkering, 3D printing, and manufacturing. For more of my work that extends beyond electronics, be sure to explore my&nbsp;

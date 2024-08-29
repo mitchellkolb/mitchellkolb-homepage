@@ -4,20 +4,18 @@ import {
   Container,
   Heading,
   Box,
-  SimpleGrid,
   Divider,
   Button,
   List,
   ListItem,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ChevronRightIcon, EmailIcon, StarIcon } from '@chakra-ui/icons'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoMail, IoLogoLinkedin, IoGlobe, IoGlobeOutline } from 'react-icons/io5'
+import { IoLogoGithub, IoMail, IoLogoLinkedin, IoGlobeOutline } from 'react-icons/io5'
 
 import Image from 'next/image'
 
@@ -73,7 +71,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Mitchell is a software developer with a deep passion for creating technology that makes a significant impact. His approach to software development is comprehensive, combining meticulous planning with steady, reliable progress. Whether he's optimizing complex airline routes or designing intuitive user interfaces, Mitchell consistently delivers solutions that are both effective and inspiring. Among his notable projects are the {' '}
+          Mitchell is a software developer with a deep passion for creating technology that makes a significant impact. His approach to software development is comprehensive, combining meticulous planning with steady, reliable progress. Whether he&apos;s optimizing complex airline routes or designing intuitive user interfaces, Mitchell consistently delivers solutions that are both effective and inspiring. Among his notable projects are the {' '}
           <Link 
             as={NextLink} 
             href="https://github.com/mitchellkolb/GSUR" 
@@ -124,7 +122,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2023</BioYear>
-          Hired by WSU's Neuropsychology and Aging Laboratory to work on the GSUR Automation Tool and EMMA Dashboard projects
+          Hired by WSU&apos;s Neuropsychology and Aging Laboratory to work on the GSUR Automation Tool and EMMA Dashboard projects
         </BioSection>
         {/* <BioSection>
           <BioYear>Present</BioYear>

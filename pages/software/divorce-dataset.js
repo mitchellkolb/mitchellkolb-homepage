@@ -18,7 +18,7 @@ import {
         Data Mining Divorce Dataset <Badge>2022</Badge>
         </Title>
         <P>
-          My project involves analyzing UC Irvine Machine Learning Repository's Divorce Predictors Data Set using data mining techniques to identify patterns and similarities with existing research. The technical approach includes processing a .csv file with responses to 54 questions, utilizing clustering algorithms like agglomerative clustering to group and visualize data, and employing Python libraries such as pandas and scikit-learn for data manipulation and analysis. My goal is to classify relationship issues, validate clustering effectiveness, and identify key indicators of relationship troubles, while overcoming challenges in data organization and interpretation.
+          My project involves analyzing UC Irvine Machine Learning Repository&apos;s Divorce Predictors Data Set using data mining techniques to identify patterns and similarities with existing research. The technical approach includes processing a .csv file with responses to 54 questions, utilizing clustering algorithms like agglomerative clustering to group and visualize data, and employing Python libraries such as pandas and scikit-learn for data manipulation and analysis. My goal is to classify relationship issues, validate clustering effectiveness, and identify key indicators of relationship troubles, while overcoming challenges in data organization and interpretation.
         </P>
         <List ml={4} my={4}>
           <ListItem>

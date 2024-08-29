@@ -1,12 +1,10 @@
 import {
     Container,
     Badge,
-    Link,
     List,
     ListItem,
     AspectRatio
   } from '@chakra-ui/react'
-  import { ExternalLinkIcon } from '@chakra-ui/icons'
   import { Title, SoftwareImage, Meta } from '../../components/software'
   import P from '../../components/paragraph'
   import Layout from '../../components/layouts/article'
@@ -18,7 +16,7 @@ import {
         Making Models in Maya <Badge>2023</Badge>
         </Title>
         <P>
-          During my time learning how to use Maya in 2023 I rendered five scenes using models that I created and two animations that involve all the models I made in the previous projects. Below you can view quick snippets of 3 of the scences and 2 of the animations that I've uploaded for you to view.
+          During my time learning how to use Maya in 2023 I rendered five scenes using models that I created and two animations that involve all the models I made in the previous projects. Below you can view quick snippets of 3 of the scences and 2 of the animations that I&apos;ve uploaded for you to view.
         </P>
         <List ml={4} my={4}>
           <ListItem>

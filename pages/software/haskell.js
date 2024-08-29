@@ -18,7 +18,7 @@ import {
         Haskell <Badge>2023</Badge>
         </Title>
         <P>
-          While learning about how to use haskell I solved a series of functions to solve specific programming problems. The goal was to enhance skills in functional programming, recursion, and higher-order functions. The tasks included writing functions for list operations, tree manipulation, and custom data types, along with full unit tests to ensure correctness. Accomplishments included successfully implementing recursive and tail-recursive solutions, using higher-order functions effectively, and ensuring code complied with Haskell's type and style requirements.
+          While learning about how to use haskell I solved a series of functions to solve specific programming problems. The goal was to enhance skills in functional programming, recursion, and higher-order functions. The tasks included writing functions for list operations, tree manipulation, and custom data types, along with full unit tests to ensure correctness. Accomplishments included successfully implementing recursive and tail-recursive solutions, using higher-order functions effectively, and ensuring code complied with Haskell&apos;s type and style requirements.
         </P>
         <List ml={4} my={4}>
           <ListItem>

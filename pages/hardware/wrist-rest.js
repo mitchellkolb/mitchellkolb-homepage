@@ -1,13 +1,10 @@
 import {
     Container,
     Badge,
-    Link,
     List,
-    ListItem,
-    AspectRatio
+    ListItem
   } from '@chakra-ui/react'
-  import { ExternalLinkIcon } from '@chakra-ui/icons'
-  import { Title, HardwareImage, Meta } from '../../components/hardware'
+  import { Title, Meta } from '../../components/hardware'
   import P from '../../components/paragraph'
   import Layout from '../../components/layouts/article'
   

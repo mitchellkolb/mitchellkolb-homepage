@@ -3,8 +3,7 @@ import {
     Badge,
     Link,
     List,
-    ListItem,
-    AspectRatio
+    ListItem
   } from '@chakra-ui/react'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
   import { Title, HardwareImage, Meta } from '../../components/hardware'
@@ -21,7 +20,7 @@ import {
           Razer Blade Screen & Battery Repair <Badge>2022-</Badge>
         </Title>
         <P>
-          I replaced the 15.6-inch IPS screen, the adhesive around the screen bezel, and the battery for a Razer Blade Laptop with a damaged screen. This process involved researching and comparing various third-party screens available online to ensure they would fit and work with this particular laptop. I accomplished this by performing a general search for the laptop model name and then matching the screens' power cable pins to the ones required, as some screens may fit but use a different power cable configuration.
+          I replaced the 15.6-inch IPS screen, the adhesive around the screen bezel, and the battery for a Razer Blade Laptop with a damaged screen. This process involved researching and comparing various third-party screens available online to ensure they would fit and work with this particular laptop. I accomplished this by performing a general search for the laptop model name and then matching the screens&apos; power cable pins to the ones required, as some screens may fit but use a different power cable configuration.
         </P>
         <List ml={4} my={4}>
           <ListItem>

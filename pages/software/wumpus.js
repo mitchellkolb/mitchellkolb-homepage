@@ -18,7 +18,7 @@ import {
         Wumpus C++ Game <Badge>2020</Badge>
         </Title>
         <P>
-          This project involved creating a text-based Hunt the Wumpus game using C++. It's played on a 5x5 grid, required players to navigate a maze to find gold while avoiding pits and the Wumpus which is a creature that moves around the grid. Key features included implementing the GameWorld class with methods for movement, displaying the game state, and checking win/loss conditions. The project demonstrated object-oriented programming, file I/O, and game logic implementation, reinforcing concepts like constructors, destructors, and operator overloading.
+          This project involved creating a text-based Hunt the Wumpus game using C++. It&apos;s played on a 5x5 grid, required players to navigate a maze to find gold while avoiding pits and the Wumpus which is a creature that moves around the grid. Key features included implementing the GameWorld class with methods for movement, displaying the game state, and checking win/loss conditions. The project demonstrated object-oriented programming, file I/O, and game logic implementation, reinforcing concepts like constructors, destructors, and operator overloading.
         </P>
 
 

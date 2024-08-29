@@ -23,7 +23,7 @@ const Credits = () => (
             Codebase
         </Heading>
         <Paragraph mb={3}>
-            This website's codebase is built upon a project generously made available by Takuya Matsuyama. One of his requests was that his site is linked. You can find his site here {' '}
+            This website&apos;s codebase is built upon a project generously made available by Takuya Matsuyama. One of his requests was that his site is linked. You can find his site here {' '}
             <Link 
                 as={NextLink} 
                 href="https://www.craftz.dog/" 

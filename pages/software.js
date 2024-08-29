@@ -7,7 +7,6 @@ import NextLink from 'next/link'
 
 
 
-import sample from '../public/images/software/s1.png'
 import airline_search_engine_thumbnail from '../public/images/software/airline/airline-search-engine-thumbnail.png'
 import classic_games_thumbnail from '../public/images/software/classic-games/classic-games-thumbnail.png'
 import color_sandwich_thumbnail from '../public/images/software/maya-models/color-sandwich-thumbnail.png'
@@ -68,12 +67,12 @@ const Software = () => {
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section>
             <SoftwareGridItem id="gsur" title="GSUR Automation Tool" thumbnail={gsur_thumbnail}>
-              Automation tool for the GSUR program that downloads/analyzes data stored by the EMMA software for WSU's Neuropsychology and Aging Laboratory.
+              Automation tool for the GSUR program that downloads/analyzes data stored by the EMMA software for WSU&apos;s Neuropsychology and Aging Laboratory.
             </SoftwareGridItem>
           </Section>
           <Section>
             <SoftwareGridItem id="emma" title="Emma Dashboard" thumbnail={emma_thumbnail}>
-              Software developed for the GSUR program to provide research tools for WSU's Neuropsychology and Aging Laboratory.
+              Software developed for the GSUR program to provide research tools for WSU&apos;s Neuropsychology and Aging Laboratory.
             </SoftwareGridItem>
           </Section>
           <Section>
@@ -198,7 +197,7 @@ const Software = () => {
           </Section>
           <Section delay={0.5}>
             <SoftwareGridItem id="threading-c" thumbnail={multi_threading_in_c_thumbnail} title="Multi-threading in C">
-              Solving complex math equations in C using multiple threads, mutex's, and barriers to avoid race conditions.
+              Solving complex math equations in C using multiple threads, mutex&apos;s, and barriers to avoid race conditions.
             </SoftwareGridItem>
           </Section>
           {showMoreMisc && (

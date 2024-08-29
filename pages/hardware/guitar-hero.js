@@ -1,14 +1,10 @@
 import {
     Container,
     Badge,
-    Link,
-    Box,
-    List,
-    ListItem,
-    AspectRatio
+    Link
   } from '@chakra-ui/react'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
-  import { Title, HardwareImage, Meta } from '../../components/hardware'
+  import { Title, HardwareImage } from '../../components/hardware'
   import P from '../../components/paragraph'
   import Layout from '../../components/layouts/article'
 
@@ -21,7 +17,7 @@ import {
           Guitar Hero Capacitor <Badge>2022</Badge>
         </Title>
         <P>
-          I replaced two capacitors on the PCB of a black Gibson Les Paul Guitar Hero PS3 controller for a friend because it wouldn't power on or connect to the PS3. The only information I had at the start was that the guitar controller didn&apos;t light up even with fresh batteries. To diagnose the issue, I checked the battery compartment and noticed slight rusting. Initially, I thought it would be a straightforward fix: open the controller, remove the rusted contact springs, soak and clean them. However, upon opening the guitar, I discovered that two capacitors on the main board appeared to have exploded. 
+          I replaced two capacitors on the PCB of a black Gibson Les Paul Guitar Hero PS3 controller for a friend because it wouldn&apos;t power on or connect to the PS3. The only information I had at the start was that the guitar controller didn&apos;t light up even with fresh batteries. To diagnose the issue, I checked the battery compartment and noticed slight rusting. Initially, I thought it would be a straightforward fix: open the controller, remove the rusted contact springs, soak and clean them. However, upon opening the guitar, I discovered that two capacitors on the main board appeared to have exploded. 
         </P>
 
   

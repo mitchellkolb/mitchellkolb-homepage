@@ -18,7 +18,7 @@ import {
         Yelp Database App <Badge>2023</Badge>
         </Title>
         <P>
-          For my Yelp Database project, I developed a Python application to query and analyze Yelp business review data, focusing on database modeling such as ER diagrams, populating large datasets, optimizing query performance through indexing, and creating a user interface for efficient business searches and data retrieval. The application utilizes PostgreSQL for database management and incorporates JSON parsing to handle Yelp's dataset, enabling users to gather detailed information about businesses in specific locations and categories, and classify them based on custom metrics for popularity and success. The GUI is written in PyQt with real-time adjustments to the charts when values are changed.
+          For my Yelp Database project, I developed a Python application to query and analyze Yelp business review data, focusing on database modeling such as ER diagrams, populating large datasets, optimizing query performance through indexing, and creating a user interface for efficient business searches and data retrieval. The application utilizes PostgreSQL for database management and incorporates JSON parsing to handle Yelp&apos;s dataset, enabling users to gather detailed information about businesses in specific locations and categories, and classify them based on custom metrics for popularity and success. The GUI is written in PyQt with real-time adjustments to the charts when values are changed.
         </P>
         <List ml={4} my={4}>
           <ListItem>

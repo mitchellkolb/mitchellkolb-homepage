@@ -5,8 +5,7 @@ import {
     List,
     ListItem,
     AspectRatio,
-    Box,
-    Center
+    Box
   } from '@chakra-ui/react'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
   import { Title, SoftwareImage, Meta } from '../../components/software'

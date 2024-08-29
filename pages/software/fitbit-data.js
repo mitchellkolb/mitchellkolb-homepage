@@ -18,7 +18,7 @@ import {
         Fitbit Data Analysis <Badge>2020, 2024</Badge>
         </Title>
         <P>
-          This project was initially completed during my CPTS 122 course, I redid this assignment four years later to evaluate the progress I've made programming during college. The project tasks included reading, cleaning, parsing, and exporting data stored in a CSV file. Key features involved handling missing or duplicate entries, performing calculations like total steps and average heart rate, and displaying results in a formatted output. 
+          This project was initially completed during my CPTS 122 course, I redid this assignment four years later to evaluate the progress I&apos;ve made programming during college. The project tasks included reading, cleaning, parsing, and exporting data stored in a CSV file. Key features involved handling missing or duplicate entries, performing calculations like total steps and average heart rate, and displaying results in a formatted output. 
         </P>
 
 

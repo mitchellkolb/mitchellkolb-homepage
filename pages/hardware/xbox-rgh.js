@@ -3,8 +3,7 @@ import {
     Badge,
     Link,
     List,
-    ListItem,
-    AspectRatio
+    ListItem
   } from '@chakra-ui/react'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
   import { Title, HardwareImage, Meta } from '../../components/hardware'
@@ -20,7 +19,7 @@ import {
           Xbox 360 RGH 3.0 <Badge>2024</Badge>
         </Title>
         <P>
-          I modded three trinity Xbox 360's with the Reset Glich Hack 3.0 (RGH3) and installed the Aroura Dashboard as well with downloading the data off of our physical game discs to preserve them. I choose to do this project because I wanted to do something revolving electronic tinkering to have more reasons to solder things, and most importantly I won these Xbox 360's from an auction and needed to do something with them. So I'll walk you through the process of how I managed to pull this off. To start I followed these guides on performing the RGH 3.0, for more detail feel free to look through these websites.
+          I modded three trinity Xbox 360&apos;s with the Reset Glich Hack 3.0 (RGH3) and installed the Aroura Dashboard as well with downloading the data off of our physical game discs to preserve them. I choose to do this project because I wanted to do something revolving electronic tinkering to have more reasons to solder things, and most importantly I won these Xbox 360&apos;s from an auction and needed to do something with them. So I&apos;ll walk you through the process of how I managed to pull this off. To start I followed these guides on performing the RGH 3.0, for more detail feel free to look through these websites.
         </P>
         <List ml={4} my={4}>
           <ListItem>
@@ -41,7 +40,7 @@ import {
         </List>
         
         <span>
-          Here's a quick rundown of what was done.
+          Here&apos;s a quick rundown of what was done.
         </span>
         <List ml={4} my={4}>
           <ListItem>
@@ -58,7 +57,7 @@ import {
           </ListItem>
           <ListItem>
             <Meta>4.</Meta>
-            <span>Flash a Raspberry Pi Pico with software that reprograms the Xbox's NAND.</span>
+            <span>Flash a Raspberry Pi Pico with software that reprograms the Xbox&apos;s NAND.</span>
           </ListItem>
           <ListItem>
             <Meta>5.</Meta>
@@ -70,7 +69,7 @@ import {
           </ListItem>
           <ListItem>
             <Meta>7.</Meta>
-            <span>Once setup is complete, unplug and desolder all the wires, reassemble the console, and enjoy an RGH'd Xbox 360.</span>
+            <span>Once setup is complete, unplug and desolder all the wires, reassemble the console, and enjoy an RGH&apos;d Xbox 360.</span>
           </ListItem>
         </List>
 
@@ -78,7 +77,7 @@ import {
         <hr style={{ border: '1px solid #ccc', margin: '20px 0' }} />
         
         <span>
-          These first two images show me opening the consoles, and I have to say this was probably the most difficult part, purely because the two side pieces of plastic on the case seem to be designed never to be removed. It feels like you have to break the plastic tabs to get them off. Luckily, I took my time and didn't snap any of the plastic clips but at times it felt like I broke it all.
+          These first two images show me opening the consoles, and I have to say this was probably the most difficult part, purely because the two side pieces of plastic on the case seem to be designed never to be removed. It feels like you have to break the plastic tabs to get them off. Luckily, I took my time and didn&apos;t snap any of the plastic clips but at times it felt like I broke it all.
         </span>
         <HardwareImage src="/images/hardware/xbox-rgh/xbox-rgh-1.png" alt="xbox-rgh-1" />
         <HardwareImage src="/images/hardware/xbox-rgh/xbox-rgh-2.png" alt="xbox-rgh-2" />
@@ -107,7 +106,7 @@ import {
         <HardwareImage src="/images/hardware/xbox-rgh/xbox-rgh-6.jpeg" alt="xbox-rgh-6" />
 
         <span>
-          This is when I soldered seven wires to the motherboard to reprogram the NAND. After plugging the Xbox into the TV and seeing the XELL RELOADED screen, I was extremely happy that I didn't break any part of it.
+          This is when I soldered seven wires to the motherboard to reprogram the NAND. After plugging the Xbox into the TV and seeing the XELL RELOADED screen, I was extremely happy that I didn&apos;t break any part of it.
         </span>
         <HardwareImage src="/images/hardware/xbox-rgh/xbox-rgh-7.jpeg" alt="xbox-rgh-7" />
         <HardwareImage src="/images/hardware/xbox-rgh/xbox-rgh-8.png" alt="xbox-rgh-8" />

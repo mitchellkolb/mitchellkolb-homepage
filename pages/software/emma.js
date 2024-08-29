@@ -3,8 +3,7 @@ import {
     Badge,
     Link,
     List,
-    ListItem,
-    AspectRatio
+    ListItem
   } from '@chakra-ui/react'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
   import { Title, SoftwareImage, Meta } from '../../components/software'
@@ -18,7 +17,7 @@ import {
         Emma Dashboard <Badge>2023-2024</Badge>
         </Title>
         <P>
-          I took over support for the EMMA dashboard, a web portal used by researchers in the EMMA project at WSU's Psychology Department to view specific patient data. My responsibilities included porting the system to the lab's new computers, importing new datasets into the graph portion of the dashboard, and updating the legacy codebase to meet the current needs of the department.
+          I took over support for the EMMA dashboard, a web portal used by researchers in the EMMA project at WSU&apos;s Psychology Department to view specific patient data. My responsibilities included porting the system to the lab&apos;s new computers, importing new datasets into the graph portion of the dashboard, and updating the legacy codebase to meet the current needs of the department.
         </P>
         <List ml={4} my={4}>
           <ListItem>

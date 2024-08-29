@@ -3,8 +3,7 @@ import {
     Badge,
     Box
   } from '@chakra-ui/react'
-  import { ExternalLinkIcon } from '@chakra-ui/icons'
-  import { Title, HardwareImage, Meta } from '../../components/hardware'
+  import { Title, HardwareImage } from '../../components/hardware'
   import P from '../../components/paragraph'
   import Layout from '../../components/layouts/article'
   
@@ -12,7 +11,7 @@ import {
     <Layout title="Building PC's">
       <Container>
         <Title>
-          Building PC's <Badge>2015+</Badge>
+          Building PC&apos;s <Badge>2015+</Badge>
         </Title>
         <Box mb={12}>
           <P>

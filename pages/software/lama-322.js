@@ -18,7 +18,7 @@ import {
         Research Position Search App - Team LAMA <Badge>2021</Badge>
         </Title>
         <P>
-          Myself and 3 others developed a web application that connects college professors and undergraduate students for research projects. The application is designed using the Model-View-Controller (MVC) architectural pattern. It includes features for students to create profiles, apply for research positions, and track application statuses. Faculty members can post research positions, view and manage applications, and contact students for interviews. The system's functionality encompasses user authentication, profile management, research position posting, and application processing. The application was made to streamline the process of finding and applying for research opportunities within our university setting.
+          Myself and 3 others developed a web application that connects college professors and undergraduate students for research projects. The application is designed using the Model-View-Controller (MVC) architectural pattern. It includes features for students to create profiles, apply for research positions, and track application statuses. Faculty members can post research positions, view and manage applications, and contact students for interviews. The system&apos;s functionality encompasses user authentication, profile management, research position posting, and application processing. The application was made to streamline the process of finding and applying for research opportunities within our university setting.
         </P>
         <List ml={4} my={4}>
           <ListItem>

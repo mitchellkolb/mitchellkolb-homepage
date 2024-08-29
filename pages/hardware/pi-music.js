@@ -3,8 +3,7 @@ import {
     Badge,
     Link,
     List,
-    ListItem,
-    AspectRatio
+    ListItem
   } from '@chakra-ui/react'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
   import { Title, HardwareImage, Meta } from '../../components/hardware'
@@ -18,7 +17,7 @@ import {
         Raspberry Pi Music Player <Badge>Ongoing</Badge>
         </Title>
         <P>
-          I'm building a music player that boots off of a Raspberry Pi 3B+ that opens a browser using playwright and plays music from pianostream.com with a custom GUI audio controls built with the Kivy UI Python UI library. All of this is going to be placed within a 3D printed case that has openings for all ports and the 5 inch touchscreen. This project will be made public when it is completed and this page will be updated with more images when its in a working condition.
+          I&apos;m building a music player that boots off of a Raspberry Pi 3B+ that opens a browser using playwright and plays music from pianostream.com with a custom GUI audio controls built with the Kivy UI Python UI library. All of this is going to be placed within a 3D printed case that has openings for all ports and the 5 inch touchscreen. This project will be made public when it is completed and this page will be updated with more images when its in a working condition.
         </P>
         <List ml={4} my={4}>
           <ListItem>

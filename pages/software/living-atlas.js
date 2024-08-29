@@ -18,7 +18,7 @@ import {
         Living Atlas <Badge>2023</Badge>
         </Title>
         <P>
-          A website developed by two teams involving 7 developers for WSU's Center for Environmental Research, Education, and Outreach (CEREO) department. We produced / deployed a full stack web application that collects and displays information relating to the Columbia River Basin. This website uses React and Mapbox for the frontend and Python with FastAPI for the backend endpoints. The backend connects to a PostgreSQL database to send and receive data from the user.
+          A website developed by two teams involving 7 developers for WSU&apos;s Center for Environmental Research, Education, and Outreach (CEREO) department. We produced / deployed a full stack web application that collects and displays information relating to the Columbia River Basin. This website uses React and Mapbox for the frontend and Python with FastAPI for the backend endpoints. The backend connects to a PostgreSQL database to send and receive data from the user.
         </P>
         <List ml={4} my={4}>
           <ListItem>

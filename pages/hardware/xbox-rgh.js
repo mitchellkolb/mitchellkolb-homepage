@@ -65,7 +65,7 @@ import {
           </ListItem>
           <ListItem>
             <Meta>6.</Meta>
-            <span>Plug the power supply into the Xbox to start it up. If done correctly, you should see the "XELL RELOADED" blue screen, which gives you special codes to input into the Raspberry Pi Pico program to finish setting up the Aurora Dashboard.</span>
+            <span>Plug the power supply into the Xbox to start it up. If done correctly, you should see the &quot;XELL RELOADED&quot; blue screen, which gives you special codes to input into the Raspberry Pi Pico program to finish setting up the Aurora Dashboard.</span>
           </ListItem>
           <ListItem>
             <Meta>7.</Meta>
@@ -96,7 +96,7 @@ import {
         <HardwareImage src="/images/hardware/xbox-rgh/xbox-rgh-5-1.jpeg" alt="xbox-rgh-5" />
 
         <span>
-          This is how tiny the spot I needed to scratch away is. The worst part is that if I accidentally scratched away the silkscreen for the line trace going up and down between the "3" and "5," it would brick the entire console.
+          This is how tiny the spot I needed to scratch away is. The worst part is that if I accidentally scratched away the silkscreen for the line trace going up and down between the &quot;3&quot; and &quot;5,&quot; it would brick the entire console.
         </span>
         <HardwareImage src="/images/hardware/xbox-rgh/xbox-rgh-5-2.jpeg" alt="xbox-rgh-5" />
 

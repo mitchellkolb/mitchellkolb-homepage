@@ -88,7 +88,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="/images/resume/Mitchell-Kolb-Resume.pdf" isExternal
+            href="/images/resume/Mitchell-Kolb-Resume-2024.pdf" isExternal
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -135,7 +135,7 @@ const Navbar = props => {
                 <MenuItem
                   as={Link}
                   target="_blank"
-                  href="/images/resume/Mitchell-Kolb-Resume.pdf" isExternal
+                  href="/images/resume/Mitchell-Kolb-Resume-2024.pdf" isExternal
                 >
                   Resume
                 </MenuItem>

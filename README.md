@@ -35,3 +35,8 @@ $PROJECT_ROOT
 └── public
 ```
 
+
+## Notes
+
+- Grid Item thumbnail images are an aspect ratio of 3:2
+- Grid Item thumbnail images have a resolution of 720x400

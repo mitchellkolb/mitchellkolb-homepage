@@ -37,6 +37,7 @@ const Main = ({ children, router }) => {
 
         <Footer />
         <Analytics />
+        <SpeedInsights />
       </Container>
     </Box>
   )

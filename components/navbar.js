@@ -83,9 +83,9 @@ const Navbar = props => {
           <LinkItem href="/hardware" path={path}>
             Hardware
           </LinkItem>
-          <LinkItem href="/credits" path={path}>
+          {/* <LinkItem href="/credits" path={path}>
             Credits
-          </LinkItem>
+          </LinkItem> */}
           <LinkItem
             target="_blank"
             href="/images/resume/Mitchell-Kolb-Resume-2024.pdf" isExternal
@@ -129,9 +129,9 @@ const Navbar = props => {
                 <MenuItem as={MenuLink} href="/hardware">
                   Hardware
                 </MenuItem>
-                <MenuItem as={MenuLink} href="/credits">
+                {/* <MenuItem as={MenuLink} href="/credits">
                   Credits
-                </MenuItem>
+                </MenuItem> */}
                 <MenuItem
                   as={Link}
                   target="_blank"

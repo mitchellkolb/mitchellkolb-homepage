@@ -253,7 +253,7 @@ const Software = () => {
             </Section>
             <Section delay={0.5}>
               <SoftwareGridItem id="apcomp-butterfly" thumbnail={apcomp_thumbnail} title="APComp Butterfly Effect">
-                This was my first unqiue coding project that I made using python back in 2016.
+                This was my first unqiue coding project that I made using python back in 2018.
               </SoftwareGridItem>
             </Section>
             

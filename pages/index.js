@@ -115,10 +115,6 @@ const Home = () => (
           Born in Washington.
         </BioSection>
         <BioSection>
-          <BioYear>2016</BioYear>
-          Earned the rank of Eagle Scout after completing the Boy Scouts program
-        </BioSection>
-        <BioSection>
           <BioYear>2023</BioYear>
           Graduated from Washington State University with a Bachelors of Science in Computer Science
         </BioSection>

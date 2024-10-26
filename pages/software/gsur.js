@@ -18,7 +18,7 @@ import {
         GSUR Automation Tool <Badge>2023-2024</Badge>
         </Title>
         <P>
-          The GSUR Data Automation Tool created for WSU&apos;s Psychology Department has two features: an automated downloader tool that runs using the requests Python library or Selenium to open your browser, log in to the EMMA patient portal website, and download all necessary files. The second feature is an analysis tool that reads through all the data files and outputs the results into a single .csv file. I presented the work I completed at the April 26th 2024, WSU Psychology Symposium. You can view the poster that I used when I presented down below.
+          The GSUR Data Automation Tool created for WSU&apos;s Psychology Department has two features: an automated downloader tool that runs using the requests Python library or Selenium to open your browser, log in to the EMMA patient portal website, and download all necessary files. The second feature is an analysis tool that reads through all the data files and outputs the results into a single .csv file. This app streamlined a multi-day data analysis workflow into a process that runs in under 8 minutes, saving researchers up to 95% of their time. I presented the work I completed at the April 26th 2024, WSU Psychology Symposium. You can view the poster that I used when I presented down below.
         </P>
         <List ml={4} my={4}>
           <ListItem>

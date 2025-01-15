@@ -88,7 +88,7 @@ const Navbar = props => {
           </LinkItem> */}
           <LinkItem
             target="_blank"
-            href="/images/resume/Mitchell-Kolb-Resume-2024.pdf" isExternal
+            href="/images/resume/Mitchell-Kolb-Resume.pdf" isExternal
             path={path}
             display="inline-flex"
             alignItems="center"

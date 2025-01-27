@@ -28,6 +28,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
       href={href}
       scroll={false}
       p={2}
+      borderRadius={active ? 'md' : 'none'}
       bg={active ? 'grassTeal' : undefined}
       color={active ? '#202023' : inactiveColor}
       target={target}
@@ -135,7 +136,7 @@ const Navbar = props => {
                 <MenuItem
                   as={Link}
                   target="_blank"
-                  href="/images/resume/Mitchell-Kolb-Resume-2024.pdf" isExternal
+                  href="/images/resume/Mitchell-Kolb-Resume.pdf" isExternal
                 >
                   Resume
                 </MenuItem>

@@ -38,7 +38,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Mitchell Kolb
           </Heading>
-          <p>Digital Craftsman ( Developer/Tinkerer/Documenter )</p>
+          <p>Digital Craftsman ( Developer & Tinkerer )</p>
         </Box>
         <Box
           flexShrink={0}

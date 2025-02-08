@@ -46,19 +46,10 @@ import {
         <SoftwareImage src="/images/software/q-learning/q-learning-map.png" alt="q-learning-map" />
         <SoftwareImage src="/images/software/q-learning/q-learning-graph.png" alt="q-learning-graph" />
 
-        <Box textAlign="center">
-          <AspectRatio maxW="640px" ratio={1.7} my={4}>
-            <iframe
-              src="/images/software/q-learning/q-learning-report.pdf"
-              title="PDF viewer"
-              frameBorder="0"
-              style={{ width: '100%', height: '100%' }}
-            ></iframe>
-          </AspectRatio>
-          <Link href="/images/software/q-learning/q-learning-report.pdf" isExternal>
+        <SoftwareImage src="/images/software/q-learning/q-learning-report-page-1.png" alt="q-learning-pdf-page-1" />
+        <Link href="/images/software/q-learning/q-learning-report.pdf" isExternal>
             Open this PDF in a New Tab
-          </Link>
-        </Box> 
+        </Link>
 
 
       </Container>

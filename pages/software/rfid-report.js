@@ -4,7 +4,6 @@ import {
     Link,
     List,
     ListItem,
-    AspectRatio,
     Box
   } from '@chakra-ui/react'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -19,7 +18,7 @@ import {
           Ethics of RFID Tag in Humans <Badge>2022</Badge>
         </Title>
         <P>
-          While learning about Professional Skills in Computing and Engineering I had a project / report with a team of 6 people. Our team was tasked with performing a group case study to increase our awareness of the issues and dilemmas surrounding professional topics. Our topic of choice was RFID tag implants in humans and the ethical concerns corresponding to that. We wrote out case study report in the IEEE format and used Asana for assigning the workload to our teamates effectively.
+          While learning about Professional Skills in Computing and Engineering I had a project / report with a team of 6 people. Our team was tasked with performing a group case study to increase our awareness of the issues and dilemmas surrounding professional topics. Our topic of choice was RFID tag implants in humans and the ethical concerns corresponding to that. We wrote out the case study report in the IEEE format and used Asana for assigning the workload to our teamates effectively.
         </P>
         <List ml={4} my={4}>
           <ListItem>

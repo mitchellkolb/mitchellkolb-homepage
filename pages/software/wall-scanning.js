@@ -41,17 +41,12 @@ import {
 
         <SoftwareImage src="/images/software/wall-scanning/APP-Manual.png" alt="wall-scanning" />
 
-        <Box textAlign="center">
-          <AspectRatio maxW="640px" ratio={1.7} my={4}>
-            <iframe
-              src="/images/software/wall-scanning/WRS_Document_Indoor_Navigation_App.pdf"
-              title="PDF viewer"
-              frameBorder="0"
-              style={{ width: '100%', height: '100%' }}
-            ></iframe>
-          </AspectRatio>
+
+        
+        <SoftwareImage src="/images/software/wall-scanning/WRS_Document_Indoor_Navigation_App-page-1.png" alt="wall-scanning-report-page-1" />
+        <Box textAlign="center" mb={12}>
           <Link href="/images/software/wall-scanning/WRS_Document_Indoor_Navigation_App.pdf" isExternal>
-            Open this PDF in a New Tab
+            Open this Report as a PDF in a New Tab
           </Link>
         </Box>  
 

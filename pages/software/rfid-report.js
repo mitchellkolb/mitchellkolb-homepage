@@ -39,20 +39,13 @@ import {
         </List>
   
 
-        {/* <SoftwareImage src="/images/software/rfid-learning/rfid-image.jpg" alt="rfid-image-1" /> */}
+
         <SoftwareImage src="/images/software/rfid-learning/rfid-asana.png" alt="rfid-image-2" />
 
-        <Box textAlign="center">
-          <AspectRatio maxW="640px" ratio={1.7} my={4}>
-            <iframe
-              src="/images/software/rfid-learning/rfid-report.pdf"
-              title="PDF viewer"
-              frameBorder="0"
-              style={{ width: '100%', height: '100%' }}
-            ></iframe>
-          </AspectRatio>
+        <SoftwareImage src="/images/software/rfid-learning/rfid-report-page-1.png" alt="rfid-report-page-1" />
+        <Box textAlign="center" mb={12}>
           <Link href="/images/software/rfid-learning/rfid-report.pdf" isExternal>
-            Open this PDF in a New Tab
+            Open this Report as a PDF in a New Tab
           </Link>
         </Box>  
 

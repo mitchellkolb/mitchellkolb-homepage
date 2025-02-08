@@ -49,7 +49,7 @@ import {
         <SoftwareImage src="/images/software/q-learning/q-learning-report-page-1.png" alt="q-learning-pdf-page-1" />
         <Box textAlign="center" mb={12}>
           <Link href="/images/software/q-learning/q-learning-report.pdf" isExternal>
-              Open this Report PDF in a New Tab
+              Open this Report as a PDF in a New Tab
           </Link>
         </Box>
 
